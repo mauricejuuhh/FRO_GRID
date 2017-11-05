@@ -1,0 +1,32 @@
+body {
+margin: 0;
+}
+#container {
+  width: 100%;
+  background-color: #fdfbfb;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 40px 69px 456px;
+}
+nav {
+  grid-column: 1/8;
+  grid-row: 2/2;
+  background-color: #fdfbfb;
+}
+#header {
+  background-image: url(http://keukentafel.nl/wp-content/uploads/2016/10/Stamppot-zuurkool-met-roquefort-werner-drent.jpg);
+      width: 100%;
+      height: 456px;
+      grid-column: 1/8;
+      grid-row: 3/3;
+      background-size: cover;
+background-position: right;
+}
+#top {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/8;
+grid-row: 1/1;
+background-color: #f1f1f1;
+}
